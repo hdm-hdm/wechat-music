@@ -1,0 +1,7 @@
+<!--pages/list/list.wxml-->
+<view class='toplist'>
+<text>歌曲列表</text>
+<view wx:for='{{musicList}}'>
+  <image src='../../images/play1.png' bindtap='selfplay'></image>{{index+1}}.{{item.title}}
+</view> 
+</view>

@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/list/list",
+    "pages/nearby/nearby",
+    "pages/logs/logs",
+    "pages/play/play"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "letingmusic",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#C2C2C4",
+    "selectedColor": "#2196F5",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/tab_icon_home.png",
+        "selectedIconPath": "images/tab_icon_home2.png"
+      },
+      {
+        "pagePath": "pages/nearby/nearby",
+        "text": "附近",
+        "iconPath": "images/tab_icon_nearby.png",
+        "selectedIconPath": "images/tab_icon_nearby2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

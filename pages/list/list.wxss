@@ -1,0 +1,21 @@
+/* pages/list/list.wxss */
+text
+{
+ font-size: 45rpx;
+}
+.toplist
+{
+  background-color:peachpuff;
+  height: 600px;
+  width: 100%;
+}
+.toplist view
+{
+  margin-top: 35rpx;
+}
+.toplist view image
+{
+width: 60rpx;
+ height: 50rpx;
+ margin-right: 20rpx;
+}

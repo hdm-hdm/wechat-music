@@ -1,0 +1,72 @@
+<!--pages/home/home.wxml-->
+<swiper autoplay='true' indicator-color='white' indicator-dots='true'>
+<swiper-item>
+<image src="../../images/banner01.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="../../images/banner02.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="../../images/banner3.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="../../images/banner4.jpg"></image>
+</swiper-item>
+</swiper>
+<view class='topTab wrap'>
+  <view bindtap='toList'>
+  <image src='../../images/topicon01.png'></image>
+  <text>榜单</text>
+  <!-- <navigator open-type='navigateTo' url='../list/list'>榜单</navigator> -->
+  </view>
+  <view>
+  <image src='../../images/topicon02.png'></image>
+  <text>明星</text>
+  <navigator></navigator>
+  </view>
+  <view>
+  <image src='../../images/topicon03.png'></image>
+  <text>专辑</text>
+  <!-- <navigator></navigator> -->
+  </view>
+  <view bindtap='toNearby'>
+  <image src='../../images/topicon04.png'></image>
+  <text>附近</text>
+  <!-- <navigator open-type='switchTab' url='../nearby/nearby'>附近</navigator> -->
+  </view>
+</view>
+<view class='hotself wrap mt40'>
+  <view class='titleWrap m5'>
+  <text><text></text>热门原创</text>
+  <text>更多</text>
+  </view>
+  <view class='hotself_cont m5'>
+  <movable-area>
+    <movable-view direction='horizontal' inertia>
+    <view>
+    <image src='../../images/img01.jpg'></image>
+    <view class='songTitle'>We the king</view>
+     <view class='singer'>Smith kid</view>
+    </view>
+    <view>
+    <image src='../../images/img02.jpg'></image>
+    <view class='songTitle'>We the king</view>
+     <view class='singer'>Smith kid</view>
+    </view>
+    <view>
+    <image src='../../images/img03.jpg'></image>
+    <view class='songTitle'>We the king</view>
+     <view class='singer'>Smith kid</view>
+    </view>
+    <view>
+    <image src='../../images/img04.jpg'></image>
+    <view class='songTitle'>We the king</view>
+     <view class='singer'>Smith kid</view>
+    </view>
+    </movable-view>
+  </movable-area>
+  </view>
+  <view></view>
+
+</view>
+
